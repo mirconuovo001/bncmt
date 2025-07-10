@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "role": "miss",
+      "username": "Miss",
+      "pin": "1234",
+      "saldo": 300,
+      "storico": [
+        {
+          "tipo": "cambio-profilo-rifiutato",
+          "data": "2025-07-08T00:52:19.213Z",
+          "note": "Cambio username/PIN rifiutato"
+        },
+        {
+          "tipo": "cambio-profilo-rifiutato",
+          "data": "2025-07-08T01:04:21.128Z",
+          "note": "Cambio username/PIN rifiutato"
+        }
+      ]
+    },
+    {
+      "role": "operatore",
+      "username": "Operatore",
+      "pin": "4321",
+      "importiDisponibili": [
+        10,
+        20,
+        50,
+        100
+      ],
+      "storico": []
+    }
+  ],
+  "richieste": [
+    {
+      "id": 1751935911124,
+      "username": "Miss",
+      "nuovoUsername": "Miss",
+      "nuovoPin": "0000",
+      "stato": "rifiutata",
+      "data": "2025-07-08T00:51:51.124Z",
+      "tipo": "cambio-profilo",
+      "dataGestione": "2025-07-08T00:52:19.213Z"
+    },
+    {
+      "id": 1751936636119,
+      "username": "Miss",
+      "nuovoUsername": "Mis",
+      "nuovoPin": "0000",
+      "stato": "rifiutata",
+      "data": "2025-07-08T01:03:56.119Z",
+      "tipo": "cambio-profilo",
+      "dataGestione": "2025-07-08T01:04:21.128Z"
+    }
+  ]
+}
